@@ -17,7 +17,7 @@ categories = ["game-development", "graphics", "mathematics", "simulation", "wasm
 [package.metadata.docs.rs]
 no-default-features = true
 features = [
-  "f64",
+  "f32",
   "bmesh",
   "mesh",
   "sketch",
