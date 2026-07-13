@@ -118,7 +118,7 @@ serde = { version = "1.0.228", optional = true }
 uuid = { version = "1.18", features = ["js"] }
 
 [features]
-default = ["f64", "bmesh", "mesh", "sketch", "stl-io", "dxf-io", "obj-io", "ply-io", "amf-io", "gltf-io", "gerber-io", "chull-io", "image-io", "metaballs", "sdf", "delaunay", "truetype-text", "hershey-text"]
+default = ["f32", "bmesh", "mesh", "sketch", "stl-io", "dxf-io", "obj-io", "ply-io", "amf-io", "gltf-io", "gerber-io", "chull-io", "image-io", "metaballs", "sdf", "delaunay", "truetype-text", "hershey-text"]
 parallel = [
   "rayon",
   "geo/multithreading",
